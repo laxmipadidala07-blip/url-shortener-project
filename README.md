@@ -4,8 +4,8 @@ A clean, functional URL shortener built as a take-home project. It's like Bitly 
 
 ## 🔗 Live Demo
 
-- **Deployed App**: https://tinylink-production.up.railway.app
-- **Health Check**: https://tinylink-production.up.railway.app/healthz
+- **Deployed App**: https://url-shortener-project-obd7h56g1.vercel.app
+- **Health Check**: https://url-shortener-project-obd7h56g1.vercel.app/healthz
 
 ## 📋 Overview
 
@@ -92,7 +92,7 @@ NEXT_PUBLIC_BASE_URL=http://localhost:3000
 
 **For Railway deployment:**
 - `DATABASE_URL` is automatically provided by the PostgreSQL plugin
-- Set `NEXT_PUBLIC_BASE_URL` manually to your Railway app URL (e.g., `https://tinylink-production.up.railway.app`)
+- Set `NEXT_PUBLIC_BASE_URL` manually to your Railway app URL (e.g., `https://url-shortener-project-obd7h56g1.vercel.app/`)
 
 ## 🌐 Deployment (Railway)
 
