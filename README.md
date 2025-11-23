@@ -24,7 +24,7 @@ No authentication system — everything's public as required.
 - **validator.js** (URL validation)
 - **lucide-react** (icons)
 
-Deployed on **Railway** with automatic HTTPS.
+Deployed on **Vercel** with automatic HTTPS.
 
 ## ✨ Features
 
@@ -54,7 +54,7 @@ Deployed on **Railway** with automatic HTTPS.
 
 1. **Clone the repository**
 ```bash
-   git clone https://github.com/yourusername/tinylink.git
+   https://github.com/laxmipadidala07-blip/url-shortener-project.git
    cd tinylink
 ```
 
@@ -90,17 +90,17 @@ DATABASE_URL=postgresql://user:password@host.region.aws.neon.tech/database?sslmo
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 ```
 
-**For Railway deployment:**
+**For Vercel deployment:**
 - `DATABASE_URL` is automatically provided by the PostgreSQL plugin
-- Set `NEXT_PUBLIC_BASE_URL` manually to your Railway app URL (e.g., `https://url-shortener-project-obd7h56g1.vercel.app/`)
+- Set `NEXT_PUBLIC_BASE_URL` manually to your Vercel app URL (e.g., `https://url-shortener-project-obd7h56g1.vercel.app/`)
 
-## 🌐 Deployment (Railway)
+## 🌐 Deployment (Vercel)
 
 1. Push your code to GitHub
-2. Create a new project on Railway → connect your GitHub repo
+2. Create a new project on Vercel → connect your GitHub repo
 3. Add the PostgreSQL plugin (this sets `DATABASE_URL` automatically)
-4. Add environment variable: `NEXT_PUBLIC_BASE_URL` = your Railway app URL
-5. Deploy → Railway runs the build and starts the app
+4. Add environment variable: `NEXT_PUBLIC_BASE_URL` = your Vercel app URL
+5. Deploy → Vercel runs the build and starts the app
 
 ## 📜 Scripts
 ```json
